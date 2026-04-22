@@ -1,0 +1,1227 @@
+[
+    {
+        "alpha_2_code": "AF",
+        "en_short_name": "Afghanistan",
+        "dial_code": "+93"
+    },
+    {
+        "alpha_2_code": "AX",
+        "en_short_name": "Åland Islands",
+        "dial_code": "+358"
+    },
+    {
+        "alpha_2_code": "AL",
+        "en_short_name": "Albania",
+        "dial_code": "+355"
+    },
+    {
+        "alpha_2_code": "DZ",
+        "en_short_name": "Algeria",
+        "dial_code": "+213"
+    },
+    {
+        "alpha_2_code": "AS",
+        "en_short_name": "American Samoa",
+        "dial_code": "+1684"
+    },
+    {
+        "alpha_2_code": "AD",
+        "en_short_name": "Andorra",
+        "dial_code": "+376"
+    },
+    {
+        "alpha_2_code": "AO",
+        "en_short_name": "Angola",
+        "dial_code": "+244"
+    },
+    {
+        "alpha_2_code": "AI",
+        "en_short_name": "Anguilla",
+        "dial_code": "+1264"
+    },
+    {
+        "alpha_2_code": "AQ",
+        "en_short_name": "Antarctica",
+        "dial_code": "+672"
+    },
+    {
+        "alpha_2_code": "AG",
+        "en_short_name": "Antigua and Barbuda",
+        "dial_code": "+1268"
+    },
+    {
+        "alpha_2_code": "AR",
+        "en_short_name": "Argentina",
+        "dial_code": "+54"
+    },
+    {
+        "alpha_2_code": "AM",
+        "en_short_name": "Armenia",
+        "dial_code": "+374"
+    },
+    {
+        "alpha_2_code": "AW",
+        "en_short_name": "Aruba",
+        "dial_code": "+297"
+    },
+    {
+        "alpha_2_code": "AU",
+        "en_short_name": "Australia",
+        "dial_code": "+61"
+    },
+    {
+        "alpha_2_code": "AT",
+        "en_short_name": "Austria",
+        "dial_code": "+43"
+    },
+    {
+        "alpha_2_code": "AZ",
+        "en_short_name": "Azerbaijan",
+        "dial_code": "+994"
+    },
+    {
+        "alpha_2_code": "BS",
+        "en_short_name": "Bahamas",
+        "dial_code": "+1242"
+    },
+    {
+        "alpha_2_code": "BH",
+        "en_short_name": "Bahrain",
+        "dial_code": "+973"
+    },
+    {
+        "alpha_2_code": "BD",
+        "en_short_name": "Bangladesh",
+        "dial_code": "+880"
+    },
+    {
+        "alpha_2_code": "BB",
+        "en_short_name": "Barbados",
+        "dial_code": "+1246"
+    },
+    {
+        "alpha_2_code": "BY",
+        "en_short_name": "Belarus",
+        "dial_code": "+375"
+    },
+    {
+        "alpha_2_code": "BE",
+        "en_short_name": "Belgium",
+        "dial_code": "+32"
+    },
+    {
+        "alpha_2_code": "BZ",
+        "en_short_name": "Belize",
+        "dial_code": "+501"
+    },
+    {
+        "alpha_2_code": "BJ",
+        "en_short_name": "Benin",
+        "dial_code": "+229"
+    },
+    {
+        "alpha_2_code": "BM",
+        "en_short_name": "Bermuda",
+        "dial_code": "+1441"
+    },
+    {
+        "alpha_2_code": "BT",
+        "en_short_name": "Bhutan",
+        "dial_code": "+975"
+    },
+    {
+        "alpha_2_code": "BO",
+        "en_short_name": "Bolivia (Plurinational State of)",
+        "dial_code": "+591"
+    },
+    {
+        "alpha_2_code": "BA",
+        "en_short_name": "Bosnia and Herzegovina",
+        "dial_code": "+387"
+    },
+    {
+        "alpha_2_code": "BW",
+        "en_short_name": "Botswana",
+        "dial_code": "+267"
+    },
+    {
+        "alpha_2_code": "BV",
+        "en_short_name": "Bouvet Island",
+        "dial_code": "+47"
+    },
+    {
+        "alpha_2_code": "BR",
+        "en_short_name": "Brazil",
+        "dial_code": "+55"
+    },
+    {
+        "alpha_2_code": "IO",
+        "en_short_name": "British Indian Ocean Territory",
+        "dial_code": "+246"
+    },
+    {
+        "alpha_2_code": "BN",
+        "en_short_name": "Brunei Darussalam",
+        "dial_code": "+673"
+    },
+    {
+        "alpha_2_code": "BG",
+        "en_short_name": "Bulgaria",
+        "dial_code": "+359"
+    },
+    {
+        "alpha_2_code": "BF",
+        "en_short_name": "Burkina Faso",
+        "dial_code": "+226"
+    },
+    {
+        "alpha_2_code": "BI",
+        "en_short_name": "Burundi",
+        "dial_code": "+257"
+    },
+    {
+        "alpha_2_code": "CV",
+        "en_short_name": "Cabo Verde",
+        "dial_code": "+238"
+    },
+    {
+        "alpha_2_code": "KH",
+        "en_short_name": "Cambodia",
+        "dial_code": "+855"
+    },
+    {
+        "alpha_2_code": "CM",
+        "en_short_name": "Cameroon",
+        "dial_code": "+237"
+    },
+    {
+        "alpha_2_code": "CA",
+        "en_short_name": "Canada",
+        "dial_code": "+1"
+    },
+    {
+        "alpha_2_code": "KY",
+        "en_short_name": "Cayman Islands",
+        "dial_code": "+1345"
+    },
+    {
+        "alpha_2_code": "CF",
+        "en_short_name": "Central African Republic",
+        "dial_code": "+236"
+    },
+    {
+        "alpha_2_code": "TD",
+        "en_short_name": "Chad",
+        "dial_code": "+235"
+    },
+    {
+        "alpha_2_code": "CL",
+        "en_short_name": "Chile",
+        "dial_code": "+56"
+    },
+    {
+        "alpha_2_code": "CN",
+        "en_short_name": "China",
+        "dial_code": "+86"
+    },
+    {
+        "alpha_2_code": "CX",
+        "en_short_name": "Christmas Island",
+        "dial_code": "+61"
+    },
+    {
+        "alpha_2_code": "CC",
+        "en_short_name": "Cocos (Keeling) Islands",
+        "dial_code": "+61"
+    },
+    {
+        "alpha_2_code": "CO",
+        "en_short_name": "Colombia",
+        "dial_code": "+57"
+    },
+    {
+        "alpha_2_code": "KM",
+        "en_short_name": "Comoros",
+        "dial_code": "+269"
+    },
+    {
+        "alpha_2_code": "CG",
+        "en_short_name": "Congo (Republic of the)",
+        "dial_code": "+242"
+    },
+    {
+        "alpha_2_code": "CD",
+        "en_short_name": "Congo (Democratic Republic of the)",
+        "dial_code": "+243"
+    },
+    {
+        "alpha_2_code": "CK",
+        "en_short_name": "Cook Islands",
+        "dial_code": "+682"
+    },
+    {
+        "alpha_2_code": "CR",
+        "en_short_name": "Costa Rica",
+        "dial_code": "+506"
+    },
+    {
+        "alpha_2_code": "CI",
+        "en_short_name": "Côte d'Ivoire",
+        "dial_code": "+225"
+    },
+    {
+        "alpha_2_code": "HR",
+        "en_short_name": "Croatia",
+        "dial_code": "+385"
+    },
+    {
+        "alpha_2_code": "CU",
+        "en_short_name": "Cuba",
+        "dial_code": "+53"
+    },
+    {
+        "alpha_2_code": "CY",
+        "en_short_name": "Cyprus",
+        "dial_code": "+357"
+    },
+    {
+        "alpha_2_code": "CZ",
+        "en_short_name": "Czech Republic",
+        "dial_code": "+420"
+    },
+    {
+        "alpha_2_code": "DK",
+        "en_short_name": "Denmark",
+        "dial_code": "+45"
+    },
+    {
+        "alpha_2_code": "DJ",
+        "en_short_name": "Djibouti",
+        "dial_code": "+253"
+    },
+    {
+        "alpha_2_code": "DM",
+        "en_short_name": "Dominica",
+        "dial_code": "+1767"
+    },
+    {
+        "alpha_2_code": "DO",
+        "en_short_name": "Dominican Republic",
+        "dial_code": "+1"
+    },
+    {
+        "alpha_2_code": "EC",
+        "en_short_name": "Ecuador",
+        "dial_code": "+593"
+    },
+    {
+        "alpha_2_code": "EG",
+        "en_short_name": "Egypt",
+        "dial_code": "+20"
+    },
+    {
+        "alpha_2_code": "SV",
+        "en_short_name": "El Salvador",
+        "dial_code": "+503"
+    },
+    {
+        "alpha_2_code": "GQ",
+        "en_short_name": "Equatorial Guinea",
+        "dial_code": "+240"
+    },
+    {
+        "alpha_2_code": "ER",
+        "en_short_name": "Eritrea",
+        "dial_code": "+291"
+    },
+    {
+        "alpha_2_code": "EE",
+        "en_short_name": "Estonia",
+        "dial_code": "+372"
+    },
+    {
+        "alpha_2_code": "ET",
+        "en_short_name": "Ethiopia",
+        "dial_code": "+251"
+    },
+    {
+        "alpha_2_code": "FK",
+        "en_short_name": "Falkland Islands (Malvinas)",
+        "dial_code": "+500"
+    },
+    {
+        "alpha_2_code": "FO",
+        "en_short_name": "Faroe Islands",
+        "dial_code": "+298"
+    },
+    {
+        "alpha_2_code": "FJ",
+        "en_short_name": "Fiji",
+        "dial_code": "+679"
+    },
+    {
+        "alpha_2_code": "FI",
+        "en_short_name": "Finland",
+        "dial_code": "+358"
+    },
+    {
+        "alpha_2_code": "FR",
+        "en_short_name": "France",
+        "dial_code": "+33"
+    },
+    {
+        "alpha_2_code": "GF",
+        "en_short_name": "French Guiana",
+        "dial_code": "+594"
+    },
+    {
+        "alpha_2_code": "PF",
+        "en_short_name": "French Polynesia",
+        "dial_code": "+689"
+    },
+    {
+        "alpha_2_code": "TF",
+        "en_short_name": "French Southern Territories",
+        "dial_code": "+262"
+    },
+    {
+        "alpha_2_code": "GA",
+        "en_short_name": "Gabon",
+        "dial_code": "+241"
+    },
+    {
+        "alpha_2_code": "GM",
+        "en_short_name": "Gambia",
+        "dial_code": "+220"
+    },
+    {
+        "alpha_2_code": "GE",
+        "en_short_name": "Georgia",
+        "dial_code": "+995"
+    },
+    {
+        "alpha_2_code": "DE",
+        "en_short_name": "Germany",
+        "dial_code": "+49"
+    },
+    {
+        "alpha_2_code": "GH",
+        "en_short_name": "Ghana",
+        "dial_code": "+233"
+    },
+    {
+        "alpha_2_code": "GI",
+        "en_short_name": "Gibraltar",
+        "dial_code": "+350"
+    },
+    {
+        "alpha_2_code": "GR",
+        "en_short_name": "Greece",
+        "dial_code": "+30"
+    },
+    {
+        "alpha_2_code": "GL",
+        "en_short_name": "Greenland",
+        "dial_code": "+299"
+    },
+    {
+        "alpha_2_code": "GD",
+        "en_short_name": "Grenada",
+        "dial_code": "+1473"
+    },
+    {
+        "alpha_2_code": "GP",
+        "en_short_name": "Guadeloupe",
+        "dial_code": "+590"
+    },
+    {
+        "alpha_2_code": "GU",
+        "en_short_name": "Guam",
+        "dial_code": "+1671"
+    },
+    {
+        "alpha_2_code": "GT",
+        "en_short_name": "Guatemala",
+        "dial_code": "+502"
+    },
+    {
+        "alpha_2_code": "GG",
+        "en_short_name": "Guernsey",
+        "dial_code": "+44"
+    },
+    {
+        "alpha_2_code": "GN",
+        "en_short_name": "Guinea",
+        "dial_code": "+224"
+    },
+    {
+        "alpha_2_code": "GW",
+        "en_short_name": "Guinea-Bissau",
+        "dial_code": "+245"
+    },
+    {
+        "alpha_2_code": "GY",
+        "en_short_name": "Guyana",
+        "dial_code": "+592"
+    },
+    {
+        "alpha_2_code": "HT",
+        "en_short_name": "Haiti",
+        "dial_code": "+509"
+    },
+    {
+        "alpha_2_code": "HM",
+        "en_short_name": "Heard Island and McDonald Islands",
+        "dial_code": "+0"
+    },
+    {
+        "alpha_2_code": "VA",
+        "en_short_name": "Vatican City State",
+        "dial_code": "+379"
+    },
+    {
+        "alpha_2_code": "HN",
+        "en_short_name": "Honduras",
+        "dial_code": "+504"
+    },
+    {
+        "alpha_2_code": "HK",
+        "en_short_name": "Hong Kong",
+        "dial_code": "+852"
+    },
+    {
+        "alpha_2_code": "HU",
+        "en_short_name": "Hungary",
+        "dial_code": "+36"
+    },
+    {
+        "alpha_2_code": "IS",
+        "en_short_name": "Iceland",
+        "dial_code": "+354"
+    },
+    {
+        "alpha_2_code": "IN",
+        "en_short_name": "India",
+        "dial_code": "+91"
+    },
+    {
+        "alpha_2_code": "ID",
+        "en_short_name": "Indonesia",
+        "dial_code": "+62"
+    },
+    {
+        "alpha_2_code": "IR",
+        "en_short_name": "Iran",
+        "dial_code": "+98"
+    },
+    {
+        "alpha_2_code": "IQ",
+        "en_short_name": "Iraq",
+        "dial_code": "+964"
+    },
+    {
+        "alpha_2_code": "IE",
+        "en_short_name": "Ireland",
+        "dial_code": "+353"
+    },
+    {
+        "alpha_2_code": "IM",
+        "en_short_name": "Isle of Man",
+        "dial_code": "+44"
+    },
+    {
+        "alpha_2_code": "IL",
+        "en_short_name": "Israel",
+        "dial_code": "+972"
+    },
+    {
+        "alpha_2_code": "IT",
+        "en_short_name": "Italy",
+        "dial_code": "+39"
+    },
+    {
+        "alpha_2_code": "JM",
+        "en_short_name": "Jamaica",
+        "dial_code": "+1876"
+    },
+    {
+        "alpha_2_code": "JP",
+        "en_short_name": "Japan",
+        "dial_code": "+81"
+    },
+    {
+        "alpha_2_code": "JE",
+        "en_short_name": "Jersey",
+        "dial_code": "+44"
+    },
+    {
+        "alpha_2_code": "JO",
+        "en_short_name": "Jordan",
+        "dial_code": "+962"
+    },
+    {
+        "alpha_2_code": "KZ",
+        "en_short_name": "Kazakhstan",
+        "dial_code": "+7"
+    },
+    {
+        "alpha_2_code": "KE",
+        "en_short_name": "Kenya",
+        "dial_code": "+254"
+    },
+    {
+        "alpha_2_code": "KI",
+        "en_short_name": "Kiribati",
+        "dial_code": "+686"
+    },
+    {
+        "alpha_2_code": "XK",
+        "en_short_name": "Kosovo (Republic of)",
+        "dial_code": "+383"
+    },
+    {
+        "alpha_2_code": "KP",
+        "en_short_name": "Korea (Democratic People's Republic of)",
+        "dial_code": "+850"
+    },
+    {
+        "alpha_2_code": "KR",
+        "en_short_name": "Korea (Republic of)",
+        "dial_code": "+82"
+    },
+    {
+        "alpha_2_code": "KW",
+        "en_short_name": "Kuwait",
+        "dial_code": "+965"
+    },
+    {
+        "alpha_2_code": "KG",
+        "en_short_name": "Kyrgyzstan",
+        "dial_code": "+996"
+    },
+    {
+        "alpha_2_code": "LA",
+        "en_short_name": "Lao People's Democratic Republic",
+        "dial_code": "+856"
+    },
+    {
+        "alpha_2_code": "LV",
+        "en_short_name": "Latvia",
+        "dial_code": "+371"
+    },
+    {
+        "alpha_2_code": "LB",
+        "en_short_name": "Lebanon",
+        "dial_code": "+961"
+    },
+    {
+        "alpha_2_code": "LS",
+        "en_short_name": "Lesotho",
+        "dial_code": "+266"
+    },
+    {
+        "alpha_2_code": "LR",
+        "en_short_name": "Liberia",
+        "dial_code": "+231"
+    },
+    {
+        "alpha_2_code": "LY",
+        "en_short_name": "Libya",
+        "dial_code": "+218"
+    },
+    {
+        "alpha_2_code": "LI",
+        "en_short_name": "Liechtenstein",
+        "dial_code": "+423"
+    },
+    {
+        "alpha_2_code": "LT",
+        "en_short_name": "Lithuania",
+        "dial_code": "+370"
+    },
+    {
+        "alpha_2_code": "LU",
+        "en_short_name": "Luxembourg",
+        "dial_code": "+352"
+    },
+    {
+        "alpha_2_code": "MO",
+        "en_short_name": "Macao",
+        "dial_code": "+853"
+    },
+    {
+        "alpha_2_code": "MK",
+        "en_short_name": "Macedonia (the former Yugoslav Republic of)",
+        "dial_code": "+389"
+    },
+    {
+        "alpha_2_code": "MG",
+        "en_short_name": "Madagascar",
+        "dial_code": "+261"
+    },
+    {
+        "alpha_2_code": "MW",
+        "en_short_name": "Malawi",
+        "dial_code": "+265"
+    },
+    {
+        "alpha_2_code": "MY",
+        "en_short_name": "Malaysia",
+        "dial_code": "+60"
+    },
+    {
+        "alpha_2_code": "MV",
+        "en_short_name": "Maldives",
+        "dial_code": "+960"
+    },
+    {
+        "alpha_2_code": "ML",
+        "en_short_name": "Mali",
+        "dial_code": "+223"
+    },
+    {
+        "alpha_2_code": "MT",
+        "en_short_name": "Malta",
+        "dial_code": "+356"
+    },
+    {
+        "alpha_2_code": "MH",
+        "en_short_name": "Marshall Islands",
+        "dial_code": "+692"
+    },
+    {
+        "alpha_2_code": "MQ",
+        "en_short_name": "Martinique",
+        "dial_code": "+596"
+    },
+    {
+        "alpha_2_code": "MR",
+        "en_short_name": "Mauritania",
+        "dial_code": "+222"
+    },
+    {
+        "alpha_2_code": "MU",
+        "en_short_name": "Mauritius",
+        "dial_code": "+230"
+    },
+    {
+        "alpha_2_code": "YT",
+        "en_short_name": "Mayotte",
+        "dial_code": "+262"
+    },
+    {
+        "alpha_2_code": "MX",
+        "en_short_name": "Mexico",
+        "dial_code": "+52"
+    },
+    {
+        "alpha_2_code": "FM",
+        "en_short_name": "Micronesia (Federated States of)",
+        "dial_code": "+691"
+    },
+    {
+        "alpha_2_code": "MD",
+        "en_short_name": "Moldova (Republic of)",
+        "dial_code": "+373"
+    },
+    {
+        "alpha_2_code": "MC",
+        "en_short_name": "Monaco",
+        "dial_code": "+377"
+    },
+    {
+        "alpha_2_code": "MN",
+        "en_short_name": "Mongolia",
+        "dial_code": "+976"
+    },
+    {
+        "alpha_2_code": "ME",
+        "en_short_name": "Montenegro",
+        "dial_code": "+382"
+    },
+    {
+        "alpha_2_code": "MS",
+        "en_short_name": "Montserrat",
+        "dial_code": "+1664"
+    },
+    {
+        "alpha_2_code": "MA",
+        "en_short_name": "Morocco",
+        "dial_code": "+212"
+    },
+    {
+        "alpha_2_code": "MZ",
+        "en_short_name": "Mozambique",
+        "dial_code": "+258"
+    },
+    {
+        "alpha_2_code": "MM",
+        "en_short_name": "Myanmar",
+        "dial_code": "+95"
+    },
+    {
+        "alpha_2_code": "NA",
+        "en_short_name": "Namibia",
+        "dial_code": "+264"
+    },
+    {
+        "alpha_2_code": "NR",
+        "en_short_name": "Nauru",
+        "dial_code": "+674"
+    },
+    {
+        "alpha_2_code": "NP",
+        "en_short_name": "Nepal",
+        "dial_code": "+977"
+    },
+    {
+        "alpha_2_code": "NL",
+        "en_short_name": "Netherlands",
+        "dial_code": "+31"
+    },
+    {
+        "alpha_2_code": "NC",
+        "en_short_name": "New Caledonia",
+        "dial_code": "+687"
+    },
+    {
+        "alpha_2_code": "NZ",
+        "en_short_name": "New Zealand",
+        "dial_code": "+64"
+    },
+    {
+        "alpha_2_code": "NI",
+        "en_short_name": "Nicaragua",
+        "dial_code": "+505"
+    },
+    {
+        "alpha_2_code": "NE",
+        "en_short_name": "Niger",
+        "dial_code": "+227"
+    },
+    {
+        "alpha_2_code": "NG",
+        "en_short_name": "Nigeria",
+        "dial_code": "+234"
+    },
+    {
+        "alpha_2_code": "NU",
+        "en_short_name": "Niue",
+        "dial_code": "+683"
+    },
+    {
+        "alpha_2_code": "NF",
+        "en_short_name": "Norfolk Island",
+        "dial_code": "+672"
+    },
+    {
+        "alpha_2_code": "MP",
+        "en_short_name": "Northern Mariana Islands",
+        "dial_code": "+1670"
+    },
+    {
+        "alpha_2_code": "NO",
+        "en_short_name": "Norway",
+        "dial_code": "+47"
+    },
+    {
+        "alpha_2_code": "OM",
+        "en_short_name": "Oman",
+        "dial_code": "+968"
+    },
+    {
+        "alpha_2_code": "PK",
+        "en_short_name": "Pakistan",
+        "dial_code": "+92"
+    },
+    {
+        "alpha_2_code": "PW",
+        "en_short_name": "Palau",
+        "dial_code": "+680"
+    },
+    {
+        "alpha_2_code": "PS",
+        "en_short_name": "Palestine, State of",
+        "dial_code": "+970"
+    },
+    {
+        "alpha_2_code": "PA",
+        "en_short_name": "Panama",
+        "dial_code": "+507"
+    },
+    {
+        "alpha_2_code": "PG",
+        "en_short_name": "Papua New Guinea",
+        "dial_code": "+675"
+    },
+    {
+        "alpha_2_code": "PY",
+        "en_short_name": "Paraguay",
+        "dial_code": "+595"
+    },
+    {
+        "alpha_2_code": "PE",
+        "en_short_name": "Peru",
+        "dial_code": "+51"
+    },
+    {
+        "alpha_2_code": "PH",
+        "en_short_name": "Philippines",
+        "dial_code": "+63"
+    },
+    {
+        "alpha_2_code": "PN",
+        "en_short_name": "Pitcairn",
+        "dial_code": "+64"
+    },
+    {
+        "alpha_2_code": "PL",
+        "en_short_name": "Poland",
+        "dial_code": "+48"
+    },
+    {
+        "alpha_2_code": "PT",
+        "en_short_name": "Portugal",
+        "dial_code": "+351"
+    },
+    {
+        "alpha_2_code": "PR",
+        "en_short_name": "Puerto Rico",
+        "dial_code": "+1939"
+    },
+    {
+        "alpha_2_code": "QA",
+        "en_short_name": "Qatar",
+        "dial_code": "+974"
+    },
+    {
+        "alpha_2_code": "RE",
+        "en_short_name": "Réunion",
+        "dial_code": "+262"
+    },
+    {
+        "alpha_2_code": "RO",
+        "en_short_name": "Romania",
+        "dial_code": "+40"
+    },
+    {
+        "alpha_2_code": "RU",
+        "en_short_name": "Russian Federation",
+        "dial_code": "+7"
+    },
+    {
+        "alpha_2_code": "RW",
+        "en_short_name": "Rwanda",
+        "dial_code": "+250"
+    },
+    {
+        "alpha_2_code": "BL",
+        "en_short_name": "Saint Barthélemy",
+        "dial_code": "+590"
+    },
+    {
+        "alpha_2_code": "SH",
+        "en_short_name": "Saint Helena, Ascension and Tristan da Cunha",
+        "dial_code": "+290"
+    },
+    {
+        "alpha_2_code": "KN",
+        "en_short_name": "Saint Kitts and Nevis",
+        "dial_code": "+1869"
+    },
+    {
+        "alpha_2_code": "LC",
+        "en_short_name": "Saint Lucia",
+        "dial_code": "+1758"
+    },
+    {
+        "alpha_2_code": "MF",
+        "en_short_name": "Saint Martin (French part)",
+        "dial_code": "+590"
+    },
+    {
+        "alpha_2_code": "PM",
+        "en_short_name": "Saint Pierre and Miquelon",
+        "dial_code": "+508"
+    },
+    {
+        "alpha_2_code": "VC",
+        "en_short_name": "Saint Vincent and the Grenadines",
+        "dial_code": "+1784"
+    },
+    {
+        "alpha_2_code": "WS",
+        "en_short_name": "Samoa",
+        "dial_code": "+685"
+    },
+    {
+        "alpha_2_code": "SM",
+        "en_short_name": "San Marino",
+        "dial_code": "+378"
+    },
+    {
+        "alpha_2_code": "ST",
+        "en_short_name": "Sao Tome and Principe",
+        "dial_code": "+239"
+    },
+    {
+        "alpha_2_code": "SA",
+        "en_short_name": "Saudi Arabia",
+        "dial_code": "+966"
+    },
+    {
+        "alpha_2_code": "SN",
+        "en_short_name": "Senegal",
+        "dial_code": "+221"
+    },
+    {
+        "alpha_2_code": "RS",
+        "en_short_name": "Serbia",
+        "dial_code": "+381"
+    },
+    {
+        "alpha_2_code": "SC",
+        "en_short_name": "Seychelles",
+        "dial_code": "+248"
+    },
+    {
+        "alpha_2_code": "SL",
+        "en_short_name": "Sierra Leone",
+        "dial_code": "+232"
+    },
+    {
+        "alpha_2_code": "SG",
+        "en_short_name": "Singapore",
+        "dial_code": "+65"
+    },
+    {
+        "alpha_2_code": "SK",
+        "en_short_name": "Slovakia",
+        "dial_code": "+421"
+    },
+    {
+        "alpha_2_code": "SI",
+        "en_short_name": "Slovenia",
+        "dial_code": "+386"
+    },
+    {
+        "alpha_2_code": "SB",
+        "en_short_name": "Solomon Islands",
+        "dial_code": "+677"
+    },
+    {
+        "alpha_2_code": "SO",
+        "en_short_name": "Somalia",
+        "dial_code": "+252"
+    },
+    {
+        "alpha_2_code": "ZA",
+        "en_short_name": "South Africa",
+        "dial_code": "+27"
+    },
+    {
+        "alpha_2_code": "GS",
+        "en_short_name": "South Georgia and the South Sandwich Islands",
+        "dial_code": "+500"
+    },
+    {
+        "alpha_2_code": "SS",
+        "en_short_name": "South Sudan",
+        "dial_code": "+211"
+    },
+    {
+        "alpha_2_code": "ES",
+        "en_short_name": "Spain",
+        "dial_code": "+34"
+    },
+    {
+        "alpha_2_code": "LK",
+        "en_short_name": "Sri Lanka",
+        "dial_code": "+94"
+    },
+    {
+        "alpha_2_code": "SD",
+        "en_short_name": "Sudan",
+        "dial_code": "+249"
+    },
+    {
+        "alpha_2_code": "SR",
+        "en_short_name": "Suriname",
+        "dial_code": "+597"
+    },
+    {
+        "alpha_2_code": "SJ",
+        "en_short_name": "Svalbard and Jan Mayen",
+        "dial_code": "+47"
+    },
+    {
+        "alpha_2_code": "SZ",
+        "en_short_name": "Swaziland",
+        "dial_code": "+268"
+    },
+    {
+        "alpha_2_code": "SE",
+        "en_short_name": "Sweden",
+        "dial_code": "+46"
+    },
+    {
+        "alpha_2_code": "CH",
+        "en_short_name": "Switzerland",
+        "dial_code": "+41"
+    },
+    {
+        "alpha_2_code": "SY",
+        "en_short_name": "Syrian Arab Republic",
+        "dial_code": "+963"
+    },
+    {
+        "alpha_2_code": "TW",
+        "en_short_name": "Taiwan",
+        "dial_code": "+886"
+    },
+    {
+        "alpha_2_code": "TJ",
+        "en_short_name": "Tajikistan",
+        "dial_code": "+992"
+    },
+    {
+        "alpha_2_code": "TZ",
+        "en_short_name": "Tanzania, United Republic of",
+        "dial_code": "+255"
+    },
+    {
+        "alpha_2_code": "TH",
+        "en_short_name": "Thailand",
+        "dial_code": "+66"
+    },
+    {
+        "alpha_2_code": "TL",
+        "en_short_name": "Timor-Leste",
+        "dial_code": "+670"
+    },
+    {
+        "alpha_2_code": "TG",
+        "en_short_name": "Togo",
+        "dial_code": "+228"
+    },
+    {
+        "alpha_2_code": "TK",
+        "en_short_name": "Tokelau",
+        "dial_code": "+690"
+    },
+    {
+        "alpha_2_code": "TO",
+        "en_short_name": "Tonga",
+        "dial_code": "+676"
+    },
+    {
+        "alpha_2_code": "TT",
+        "en_short_name": "Trinidad and Tobago",
+        "dial_code": "+1868"
+    },
+    {
+        "alpha_2_code": "TN",
+        "en_short_name": "Tunisia",
+        "dial_code": "+216"
+    },
+    {
+        "alpha_2_code": "TR",
+        "en_short_name": "Turkey",
+        "dial_code": "+90"
+    },
+    {
+        "alpha_2_code": "TM",
+        "en_short_name": "Turkmenistan",
+        "dial_code": "+993"
+    },
+    {
+        "alpha_2_code": "TC",
+        "en_short_name": "Turks and Caicos Islands",
+        "dial_code": "+1649"
+    },
+    {
+        "alpha_2_code": "TV",
+        "en_short_name": "Tuvalu",
+        "dial_code": "+688"
+    },
+    {
+        "alpha_2_code": "UG",
+        "en_short_name": "Uganda",
+        "dial_code": "+256"
+    },
+    {
+        "alpha_2_code": "UA",
+        "en_short_name": "Ukraine",
+        "dial_code": "+380"
+    },
+    {
+        "alpha_2_code": "AE",
+        "en_short_name": "United Arab Emirates",
+        "dial_code": "+971"
+    },
+    {
+        "alpha_2_code": "GB",
+        "en_short_name": "United Kingdom of Great Britain and Northern Ireland",
+        "dial_code": "+44"
+    },
+    {
+        "alpha_2_code": "US",
+        "en_short_name": "United States of America",
+        "dial_code": "+1"
+    },
+    {
+        "alpha_2_code": "UY",
+        "en_short_name": "Uruguay",
+        "dial_code": "+598"
+    },
+    {
+        "alpha_2_code": "UZ",
+        "en_short_name": "Uzbekistan",
+        "dial_code": "+998"
+    },
+    {
+        "alpha_2_code": "VU",
+        "en_short_name": "Vanuatu",
+        "dial_code": "+678"
+    },
+    {
+        "alpha_2_code": "VE",
+        "en_short_name": "Venezuela (Bolivarian Republic of)",
+        "dial_code": "+58"
+    },
+    {
+        "alpha_2_code": "VN",
+        "en_short_name": "Vietnam",
+        "dial_code": "+84"
+    },
+    {
+        "alpha_2_code": "VG",
+        "en_short_name": "Virgin Islands (British)",
+        "dial_code": "+1284"
+    },
+    {
+        "alpha_2_code": "VI",
+        "en_short_name": "Virgin Islands (U.S.)",
+        "dial_code": "+1340"
+    },
+    {
+        "alpha_2_code": "WF",
+        "en_short_name": "Wallis and Futuna",
+        "dial_code": "+681"
+    },
+    {
+        "alpha_2_code": "YE",
+        "en_short_name": "Yemen",
+        "dial_code": "+967"
+    },
+    {
+        "alpha_2_code": "ZM",
+        "en_short_name": "Zambia",
+        "dial_code": "+260"
+    },
+    {
+        "alpha_2_code": "ZW",
+        "en_short_name": "Zimbabwe",
+        "dial_code": "+263"
+    }
+]
