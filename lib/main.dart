@@ -1,12 +1,31 @@
-import 'package:skillsync/core/dependency_injection.dart';
 import 'package:flutter/material.dart';
-import 'package:skillsync/ui/screens/main_screen.dart';
+import 'ui/screens/splash/splash_screen.dart';
+import 'ui/screens/auth/login_screen.dart';
 
-import 'skillsync_main.dart';
-
-Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await DependencyInjection.init();
-  runApp(const SkillSyncMain());
+void main() {
+  runApp(const SkillSyncApp());
 }
 
+class SkillSyncApp extends StatelessWidget {
+  const SkillSyncApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+
+      title: 'SkillSync',
+
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+
+      initialRoute: '/',
+
+      routes: {
+        '/': (context) => const SplashScreen(),
+        '/login': (context) => const LoginScreen(),
+      },
+    );
+  }
+}
