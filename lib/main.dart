@@ -3,6 +3,7 @@ import 'ui/screens/splash/splash_screen.dart';
 import 'ui/screens/auth/login_screen.dart';
 import 'ui/screens/auth/register_screen.dart';
 import 'ui/screens/dashboard/dashboard_screen.dart';
+import 'ui/screens/navigation/navigation_screen.dart';
 
 void main() {
   runApp(const SkillSyncApp());
@@ -29,6 +30,7 @@ class SkillSyncApp extends StatelessWidget {
         '/login': (context) => const LoginScreen(),
         '/register': (context) => const RegisterScreen(),
         '/dashboard': (context) => const DashboardScreen(),
+        '/navigation': (context) => const NavigationScreen(),
       },
     );
   }
