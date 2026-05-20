@@ -13,6 +13,7 @@ class _DashboardScreenState extends State<DashboardScreen>
 
   late AnimationController _controller;
   late Animation<double> _animation;
+  late Animation<Offset> _slideAnimation;
   int hoveredCardIndex = -1;
   int hoveredCourseIndex = -1;
   
@@ -24,7 +25,15 @@ class _DashboardScreenState extends State<DashboardScreen>
       vsync: this,
       duration: const Duration(seconds: 2),
     );
-
+    _slideAnimation = Tween<Offset>(
+  begin: const Offset(0, 0.08),
+  end: Offset.zero,
+).animate(
+  CurvedAnimation(
+    parent: _controller,
+    curve: Curves.easeOutCubic,
+  ),
+);
     _animation = Tween<double>(
       begin: 0.0,
       end: 0.78,
@@ -49,7 +58,13 @@ class _DashboardScreenState extends State<DashboardScreen>
     return Scaffold(
       backgroundColor: const Color(0xFF020B3A),
 
-      body: SafeArea(
+      body: FadeTransition(
+  opacity: _controller,
+
+  child: SlideTransition(
+    position: _slideAnimation,
+
+    child: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(20),
 
@@ -708,13 +723,15 @@ Container(
     ),
   ),
 ),
-              ],
+                ],
+              ),
             ),
           ),
         ),
       ),
-    );
-  }
+    ),
+  );
+}
 
 Widget buildCourseCard({
   required int index,
