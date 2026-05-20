@@ -508,6 +508,198 @@ class _DashboardScreenState extends State<DashboardScreen>
                 ),
 
                 const SizedBox(height: 40),
+                const SizedBox(height: 40),
+
+/// WEEKLY LEARNING CHART
+const Text(
+  "Weekly Learning Activity",
+  style: TextStyle(
+    color: Colors.white,
+    fontSize: 22,
+    fontWeight: FontWeight.bold,
+  ),
+),
+
+const SizedBox(height: 20),
+
+Container(
+  height: 320,
+  padding: const EdgeInsets.all(20),
+
+  decoration: BoxDecoration(
+    color: const Color(0xFF11162A),
+    borderRadius: BorderRadius.circular(20),
+  ),
+
+  child: BarChart(
+    BarChartData(
+      backgroundColor: Colors.transparent,
+
+      borderData: FlBorderData(show: false),
+
+      gridData: FlGridData(
+        show: true,
+        drawVerticalLine: false,
+        horizontalInterval: 1,
+
+        getDrawingHorizontalLine: (value) {
+          return FlLine(
+            color: Colors.white12,
+            strokeWidth: 1,
+          );
+        },
+      ),
+
+      titlesData: FlTitlesData(
+
+        leftTitles: AxisTitles(
+          sideTitles: SideTitles(
+            showTitles: true,
+            reservedSize: 30,
+
+            getTitlesWidget: (value, meta) {
+              return Text(
+                "${value.toInt()}h",
+                style: const TextStyle(
+                  color: Colors.white54,
+                  fontSize: 12,
+                ),
+              );
+            },
+          ),
+        ),
+
+        rightTitles: AxisTitles(
+          sideTitles: SideTitles(showTitles: false),
+        ),
+
+        topTitles: AxisTitles(
+          sideTitles: SideTitles(showTitles: false),
+        ),
+
+        bottomTitles: AxisTitles(
+          sideTitles: SideTitles(
+            showTitles: true,
+
+            getTitlesWidget: (value, meta) {
+
+              const days = [
+                'M',
+                'T',
+                'W',
+                'T',
+                'F',
+                'S',
+                'S'
+              ];
+
+              return Padding(
+                padding: const EdgeInsets.only(top: 10),
+
+                child: Text(
+                  days[value.toInt()],
+                  style: const TextStyle(
+                    color: Colors.white70,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              );
+            },
+          ),
+        ),
+      ),
+
+      maxY: 6,
+
+      barGroups: [
+
+        BarChartGroupData(
+          x: 0,
+          barRods: [
+            BarChartRodData(
+              toY: 2,
+              color: Colors.blue,
+              width: 18,
+              borderRadius: BorderRadius.circular(6),
+            ),
+          ],
+        ),
+
+        BarChartGroupData(
+          x: 1,
+          barRods: [
+            BarChartRodData(
+              toY: 4,
+              color: Colors.blue,
+              width: 18,
+              borderRadius: BorderRadius.circular(6),
+            ),
+          ],
+        ),
+
+        BarChartGroupData(
+          x: 2,
+          barRods: [
+            BarChartRodData(
+              toY: 1,
+              color: Colors.blue,
+              width: 18,
+              borderRadius: BorderRadius.circular(6),
+            ),
+          ],
+        ),
+
+        BarChartGroupData(
+          x: 3,
+          barRods: [
+            BarChartRodData(
+              toY: 5,
+              color: Colors.blue,
+              width: 18,
+              borderRadius: BorderRadius.circular(6),
+            ),
+          ],
+        ),
+
+        BarChartGroupData(
+          x: 4,
+          barRods: [
+            BarChartRodData(
+              toY: 3,
+              color: Colors.blue,
+              width: 18,
+              borderRadius: BorderRadius.circular(6),
+            ),
+          ],
+        ),
+
+        BarChartGroupData(
+          x: 5,
+          barRods: [
+            BarChartRodData(
+              toY: 2,
+              color: Colors.blue,
+              width: 18,
+              borderRadius: BorderRadius.circular(6),
+            ),
+          ],
+        ),
+
+        BarChartGroupData(
+          x: 6,
+          barRods: [
+            BarChartRodData(
+              toY: 4,
+              color: Colors.blue,
+              width: 18,
+              borderRadius: BorderRadius.circular(6),
+            ),
+          ],
+        ),
+      ],
+    ),
+  ),
+),
               ],
             ),
           ),
