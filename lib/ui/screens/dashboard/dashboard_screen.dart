@@ -54,8 +54,27 @@ class _DashboardScreenState extends State<DashboardScreen>
   }
 
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
+ Widget build(BuildContext context) {
+
+  final screenWidth =
+      MediaQuery.of(context).size.width;
+
+  final isMobile = screenWidth < 700;
+  final isTablet =
+      screenWidth >= 700 && screenWidth < 1100;
+
+  final isDesktop = screenWidth >= 1100;
+  final horizontalPadding = isMobile
+    ? 16.0
+    : isTablet
+        ? 20.0
+        : 28.0;
+
+final sectionSpacing = isMobile ? 24.0 : 40.0;
+
+final titleSize = isMobile ? 18.0 : 22.0;
+
+  return Scaffold(
       backgroundColor: const Color(0xFF020B3A),
 
       body: FadeTransition(
@@ -66,7 +85,7 @@ class _DashboardScreenState extends State<DashboardScreen>
 
     child: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.all(20),
+          padding: EdgeInsets.all(horizontalPadding),
 
           child: SingleChildScrollView(
             child: Column(
@@ -211,11 +230,11 @@ class _DashboardScreenState extends State<DashboardScreen>
                 const SizedBox(height: 30),
 
                 /// SECTION TITLE
-                const Text(
+                Text(
                   "Your Progress",
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 22,
+                    fontSize: titleSize,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -223,106 +242,55 @@ class _DashboardScreenState extends State<DashboardScreen>
                 const SizedBox(height: 20),
 
                 /// PROGRESS CARDS
-                Row(
-                  children: [
+isMobile
+    ? Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
 
-                    Expanded(
-                      child: Container(
-                        padding:
-                            const EdgeInsets.all(20),
+          buildProgressCard(
+            icon: Icons.menu_book_rounded,
+            color: Colors.blue,
+            value: "12",
+            label: "Courses",
+          ),
 
-                        decoration: BoxDecoration(
-                          color:
-                              const Color(0xFF11162A),
-                          borderRadius:
-                              BorderRadius.circular(18),
-                        ),
+          const SizedBox(height: 20),
 
-                        child: Column(
-                          children: const [
+          buildProgressCard(
+            icon: Icons.emoji_events,
+            color: Colors.orange,
+            value: "8",
+            label: "Badges",
+          ),
+        ],
+      )
 
-                            Icon(
-                              Icons.menu_book_rounded,
-                              color: Colors.blue,
-                              size: 40,
-                            ),
+    : Row(
+        children: [
 
-                            SizedBox(height: 15),
+          Expanded(
+            child: buildProgressCard(
+              icon: Icons.menu_book_rounded,
+              color: Colors.blue,
+              value: "12",
+              label: "Courses",
+            ),
+          ),
 
-                            Text(
-                              "12",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 28,
-                                fontWeight:
-                                    FontWeight.bold,
-                              ),
-                            ),
+          const SizedBox(width: 20),
 
-                            SizedBox(height: 5),
+          Expanded(
+            child: buildProgressCard(
+              icon: Icons.emoji_events,
+              color: Colors.orange,
+              value: "8",
+              label: "Badges",
+            ),
+          ),
+        ],
+      ),
 
-                            Text(
-                              "Courses",
-                              style: TextStyle(
-                                color: Colors.white70,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ),
-
-                    const SizedBox(width: 20),
-
-                    Expanded(
-                      child: Container(
-                        padding:
-                            const EdgeInsets.all(20),
-
-                        decoration: BoxDecoration(
-                          color:
-                              const Color(0xFF11162A),
-                          borderRadius:
-                              BorderRadius.circular(18),
-                        ),
-
-                        child: Column(
-                          children: const [
-
-                            Icon(
-                              Icons.emoji_events,
-                              color: Colors.orange,
-                              size: 40,
-                            ),
-
-                            SizedBox(height: 15),
-
-                            Text(
-                              "8",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 28,
-                                fontWeight:
-                                    FontWeight.bold,
-                              ),
-                            ),
-
-                            SizedBox(height: 5),
-
-                            Text(
-                              "Badges",
-                              style: TextStyle(
-                                color: Colors.white70,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-
-                const SizedBox(height: 30),
+const SizedBox(height: 30),
 
                 /// DAILY STREAK
                 Container(
@@ -379,11 +347,11 @@ class _DashboardScreenState extends State<DashboardScreen>
                 const SizedBox(height: 30),
 
                 /// RECOMMENDED COURSES
-                const Text(
+                Text(
                   "Recommended Courses",
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 22,
+                    fontSize: titleSize,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -414,14 +382,14 @@ class _DashboardScreenState extends State<DashboardScreen>
                   color: Colors.orange,
                 ),
 
-                const SizedBox(height: 40),
+                SizedBox(height: sectionSpacing),
 
                 /// RECENT ACTIVITY
-                const Text(
+                Text(
                   "Recent Activity",
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 22,
+                    fontSize: titleSize,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -466,14 +434,14 @@ class _DashboardScreenState extends State<DashboardScreen>
                   time: "3 days ago",
                 ),
 
-                const SizedBox(height: 40),
+                SizedBox(height: sectionSpacing),
 
                 /// ANALYTICS SECTION
-                const Text(
+                Text(
                   "Learning Analytics",
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 22,
+                    fontSize: titleSize,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -481,14 +449,14 @@ class _DashboardScreenState extends State<DashboardScreen>
                 const SizedBox(height: 20),
 
                 GridView.count(
-                  crossAxisCount: 2,
+                  crossAxisCount: isMobile ? 1 : 2,
                   shrinkWrap: true,
                   physics:
                       const NeverScrollableScrollPhysics(),
 
                   crossAxisSpacing: 16,
                   mainAxisSpacing: 16,
-                  childAspectRatio: 1.8,
+                  childAspectRatio: isMobile ? 2.4 : 1.8,
 
                   children: [
 
@@ -530,15 +498,15 @@ class _DashboardScreenState extends State<DashboardScreen>
                   ],
                 ),
 
-                const SizedBox(height: 40),
-                const SizedBox(height: 40),
+                SizedBox(height: sectionSpacing),
+                SizedBox(height: sectionSpacing),
 
 /// WEEKLY LEARNING CHART
-const Text(
+Text(
   "Weekly Learning Activity",
   style: TextStyle(
     color: Colors.white,
-    fontSize: 22,
+    fontSize: titleSize,
     fontWeight: FontWeight.bold,
   ),
 ),
@@ -769,7 +737,11 @@ Widget buildCourseCard({
           ),
 
           width: double.infinity,
-          padding: const EdgeInsets.all(20),
+          padding: EdgeInsets.all(
+            MediaQuery.of(context).size.width < 700
+                ? 16
+                : 20,
+            ),
 
           decoration: BoxDecoration(
             color: const Color(0xFF11162A),
@@ -915,6 +887,53 @@ Widget buildCourseCard({
       );
 }
 
+Widget buildProgressCard({
+  required IconData icon,
+  required Color color,
+  required String value,
+  required String label,
+}) {
+
+  return Container(
+    padding: const EdgeInsets.all(20),
+
+    decoration: BoxDecoration(
+      color: const Color(0xFF11162A),
+      borderRadius: BorderRadius.circular(18),
+    ),
+
+    child: Column(
+      children: [
+
+        Icon(
+          icon,
+          color: color,
+          size: 40,
+        ),
+
+        const SizedBox(height: 15),
+
+        Text(
+          value,
+          style: const TextStyle(
+            color: Colors.white,
+            fontSize: 28,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+
+        const SizedBox(height: 5),
+
+        Text(
+          label,
+          style: const TextStyle(
+            color: Colors.white70,
+          ),
+        ),
+      ],
+    ),
+  );
+}
   Widget buildActivityCard({
     required IconData icon,
     required Color iconColor,
