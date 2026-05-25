@@ -64,7 +64,6 @@ class _DashboardScreenState extends State<DashboardScreen>
   final isTablet =
       screenWidth >= 700 && screenWidth < 1100;
 
-  final isDesktop = screenWidth >= 1100;
   final horizontalPadding = isMobile
     ? 16.0
     : isTablet
@@ -148,10 +147,10 @@ final titleSize = isMobile ? 18.0 : 22.0;
                   padding: const EdgeInsets.all(24),
 
                   decoration: BoxDecoration(
-                    gradient: const LinearGradient(
+                    gradient: LinearGradient(
                       colors: [
-                        Color(0xFF3B82F6),
-                        Color(0xFF2563EB),
+                        AppColors.primaryBlue,
+                        AppColors.darkBlue,
                       ],
                     ),
 
@@ -786,8 +785,8 @@ Widget buildCourseCard({
 
               BoxShadow(
                 color: isHovered
-                    ? color.withOpacity(0.35)
-                    : Colors.black.withOpacity(0.15),
+                    ? color.withValues(alpha: 0.35)
+                    : Colors.black.withValues(alpha: 0.15),
 
                 blurRadius: isHovered ? 20 : 0,
                 spreadRadius: isHovered ? 2 : 0,
@@ -813,7 +812,7 @@ Widget buildCourseCard({
                     padding: const EdgeInsets.all(12),
 
                     decoration: BoxDecoration(
-                      color: color.withOpacity(0.2),
+                      color: color.withValues(alpha: 0.2),
                       borderRadius:
                           BorderRadius.circular(14),
                     ),
@@ -993,7 +992,7 @@ Widget buildProgressCard({
             padding: const EdgeInsets.all(14),
 
             decoration: BoxDecoration(
-              color: iconColor.withOpacity(0.15),
+              color: iconColor.withValues(alpha:0.15),
               borderRadius: BorderRadius.circular(14),
             ),
 
@@ -1092,8 +1091,8 @@ Widget buildProgressCard({
 
           BoxShadow(
             color: isHovered
-                ? color.withOpacity(0.18)
-                : color.withOpacity(0.12),
+                ? color.withValues(alpha:0.18)
+                : color.withValues(alpha:0.12),
 
             blurRadius: isHovered ? 18 : 10,
             spreadRadius: isHovered ? 1 : 0,
@@ -1118,7 +1117,7 @@ Widget buildProgressCard({
             padding: const EdgeInsets.all(12),
 
             decoration: BoxDecoration(
-              color: color.withOpacity(0.15),
+              color: color.withValues(alpha:0.15),
               borderRadius:
                   BorderRadius.circular(14),
             ),
