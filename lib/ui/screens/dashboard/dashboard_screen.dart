@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
+import '../../../constants/app_colors.dart';
 
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({super.key});
@@ -75,7 +76,7 @@ final sectionSpacing = isMobile ? 24.0 : 40.0;
 final titleSize = isMobile ? 18.0 : 22.0;
 
   return Scaffold(
-      backgroundColor: const Color(0xFF020B3A),
+      backgroundColor: AppColors.background,
 
       body: FadeTransition(
   opacity: _controller,
@@ -298,7 +299,7 @@ const SizedBox(height: 30),
                   padding: const EdgeInsets.all(20),
 
                   decoration: BoxDecoration(
-                    color: const Color(0xFF11162A),
+                    color: AppColors.card,
                     borderRadius:
                         BorderRadius.circular(18),
                   ),
@@ -552,7 +553,7 @@ Container(
   padding: const EdgeInsets.all(20),
 
   decoration: BoxDecoration(
-    color: const Color(0xFF11162A),
+    color: AppColors.card,
     borderRadius: BorderRadius.circular(20),
   ),
 
@@ -778,7 +779,7 @@ Widget buildCourseCard({
             ),
 
           decoration: BoxDecoration(
-            color: const Color(0xFF11162A),
+            color: AppColors.card,
             borderRadius: BorderRadius.circular(18),
 
             boxShadow: [
@@ -932,7 +933,7 @@ Widget buildProgressCard({
     padding: const EdgeInsets.all(20),
 
     decoration: BoxDecoration(
-      color: const Color(0xFF11162A),
+      color: AppColors.card,
       borderRadius: BorderRadius.circular(18),
     ),
 
@@ -981,7 +982,7 @@ Widget buildProgressCard({
       padding: const EdgeInsets.all(18),
 
       decoration: BoxDecoration(
-        color: const Color(0xFF11162A),
+        color: AppColors.card,
         borderRadius: BorderRadius.circular(18),
       ),
 
@@ -1084,7 +1085,7 @@ Widget buildProgressCard({
       padding: const EdgeInsets.all(20),
 
       decoration: BoxDecoration(
-        color: const Color(0xFF11162A),
+        color: AppColors.card,
         borderRadius: BorderRadius.circular(20),
 
         boxShadow: [
