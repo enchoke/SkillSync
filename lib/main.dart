@@ -6,12 +6,14 @@ import 'ui/screens/auth/login_screen.dart';
 import 'ui/screens/auth/register_screen.dart';
 import 'ui/screens/dashboard/dashboard_screen.dart';
 import 'ui/screens/navigation/navigation_screen.dart';
+import 'core/dependency_injection.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+  await DependencyInjection.init();
   runApp(const SkillSyncApp());
 }
 
