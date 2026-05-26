@@ -1,3 +1,4 @@
+import '../../../barrel_file.dart';
 import 'package:flutter/material.dart';
 import '../../../constants/app_colors.dart';
 
@@ -276,6 +277,17 @@ class ProfileScreen extends StatelessWidget {
                     icon: Icons.logout,
                     title: "Logout",
                     color: Colors.red,
+                    onTap: () async {
+                      await sl.authenticationCubit.logout();
+
+                      if (context.mounted) {
+                        Navigator.pushNamedAndRemoveUntil(
+                          context,
+                          '/login',
+                          (route) => false,
+                        );
+                      }
+                    },
                   ),
                 ],
               ),
@@ -289,41 +301,39 @@ class ProfileScreen extends StatelessWidget {
   }
 
   Widget buildActionButton({
-    required IconData icon,
-    required String title,
-    Color color = Colors.blue,
+  required IconData icon,
+  required String title,
+  Color color = Colors.blue,
+  VoidCallback? onTap,
   }) {
-
-    return Container(
-      width: double.infinity,
-      height: 60,
-
-      decoration: BoxDecoration(
-        color: AppColors.card,
-        borderRadius: BorderRadius.circular(18),
-      ),
-
-      child: Row(
-        children: [
-
-          const SizedBox(width: 20),
-
-          Icon(
-            icon,
-            color: color,
-          ),
-
-          const SizedBox(width: 20),
-
-          Text(
-            title,
-            style: const TextStyle(
-              color: Colors.white,
-              fontSize: 16,
-              fontWeight: FontWeight.w600,
+    return InkWell(
+      onTap: onTap,
+      borderRadius: BorderRadius.circular(18),
+      child: Container(
+        width: double.infinity,
+        height: 60,
+        decoration: BoxDecoration(
+          color: AppColors.card,
+          borderRadius: BorderRadius.circular(18),
+        ),
+        child: Row(
+          children: [
+            const SizedBox(width: 20),
+            Icon(
+              icon,
+              color: color,
             ),
-          ),
-        ],
+            const SizedBox(width: 20),
+            Text(
+              title,
+              style: const TextStyle(
+                color: Colors.white,
+                fontSize: 16,
+                fontWeight: FontWeight.w600,
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

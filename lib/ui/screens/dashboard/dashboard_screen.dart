@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 import '../../../constants/app_colors.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({super.key});
@@ -17,6 +18,8 @@ class _DashboardScreenState extends State<DashboardScreen>
   late Animation<Offset> _slideAnimation;
   int hoveredCardIndex = -1;
   int hoveredCourseIndex = -1;
+  List<dynamic> courses = [];
+  bool isLoadingCourses = true;
   
   @override
   void initState() {
@@ -46,6 +49,7 @@ class _DashboardScreenState extends State<DashboardScreen>
     );
 
     _controller.forward();
+    fetchCourses();
   }
 
   @override
@@ -392,29 +396,42 @@ const SizedBox(height: 30),
 
                 const SizedBox(height: 20),
 
-                buildCourseCard(
-                  index: 0,
-                  title: "Flutter Development",
-                  subtitle:
-                      "Build modern mobile applications",
-                  progress: 0.7,
-                  progressText: "70% Completed",
-                  icon: Icons.code,
-                  color: Colors.blue,
-                ),
+                if (isLoadingCourses)
+
+                  const Center(
+                    child: CircularProgressIndicator(),
+                  )
+
+                else
+
+                  ListView.separated(
+                    shrinkWrap: true,
+                    physics: const NeverScrollableScrollPhysics(),
+
+                    itemCount: courses.length,
+
+                    separatorBuilder: (_, __) =>
+                        const SizedBox(height: 20),
+
+                    itemBuilder: (context, index) {
+
+                      final course = courses[index];
+
+                      return buildCourseCard(
+                        index: index,
+                        title: course['title'] ?? 'Untitled',
+                        subtitle:
+                            course['description'] ?? '',
+                        progress: 0.0,
+                        progressText: "Start Course",
+                        icon: Icons.menu_book,
+                        color: Colors.blue,
+                      );
+                    },
+                  ),
 
                 const SizedBox(height: 20),
 
-                buildCourseCard(
-                  index: 1,
-                  title: "Cyber Security Basics",
-                  subtitle:
-                      "Learn networking and cyber defense",
-                  progress: 0.45,
-                  progressText: "45% Completed",
-                  icon: Icons.security,
-                  color: Colors.orange,
-                ),
 
                 SizedBox(height: sectionSpacing),
 
@@ -733,6 +750,33 @@ Container(
       ),
     ),
   );
+}
+
+Future<void> fetchCourses() async {
+
+  try {
+
+    final response = await Supabase
+        .instance
+        .client
+        .from('courses')
+        .select()
+        .eq('is_deleted', false);
+        debugPrint("COURSES RESPONSE: $response");
+
+    setState(() {
+      courses = response;
+      isLoadingCourses = false;
+    });
+
+  } catch (e) {
+
+    debugPrint("COURSE ERROR: $e");
+
+    setState(() {
+      isLoadingCourses = false;
+    });
+  }
 }
 
 Widget buildCourseCard({
